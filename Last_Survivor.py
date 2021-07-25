@@ -1,5 +1,6 @@
 
-## Last Survivor ####
+# ---------------------------------------- Last Survivor ----------------------------------------- #
+
 
 # You are given a string of letters and an array of numbers.
 # The numbers indicate positions of letters that must be removed, in order, starting from the beginning of the array.
@@ -19,6 +20,7 @@
 # The length of the array is always one less than the length of the string.
 # All numbers are valid.
 # There can be duplicate letters and numbers.
+
 
 
 letters = "zbk"
