@@ -1,3 +1,7 @@
+
+# ----------------------------------- Count-IP-address ---------------------------------- #
+
+
 # Implement a function that receives two IPv4 addresses,
 # and returns the number of addresses between them
 # (including the first one, excluding the last one).
@@ -6,10 +10,29 @@
 
 # example test - ips_between("20.0.0.10", "20.0.1.0")  ==  246
 
+ 
+    
+start = "20.0.0.10"
+end = "20.0.1.0"
+    
+  
+
 def ips_between(start, end):
     ip_sum = 0
     addr_span = [int(b) - int(a) for a,b in zip(start.split("."), end.split("."))]
+    
     for i in addr_span:
         ip_sum =  ip_sum * 256
         ip_sum = ip_sum + i
+        
     return ip_sum
+
+
+
+print(ips_between(start, end))
+
+
+
+# output
+         246
+
