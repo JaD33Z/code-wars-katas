@@ -24,7 +24,7 @@ chars = "bbbaaaaabbbbaa"
 def longest_repetition(chars):
     x = len(chars)
     count = 0
-    res = chars[0]
+    res = ""
     for i in range(x):
         occurs = 1
         for j in range(i + 1, x):
