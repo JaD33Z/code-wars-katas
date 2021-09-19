@@ -1,6 +1,12 @@
 # code-wars-katas
 Collection of Code Wars challenges with my solutions
 
+</br>
+
+![code-wars](https://user-images.githubusercontent.com/74392848/133162259-33b73086-0c99-4913-bc33-04838d24e00e.png)
+
+</br>
+
 Codewars is a community-created online platform to practice code challenges. It's definitely my favorite coding
 site. It has an awesome community with a high standard of quality, content and behavior that is consistently maintained and adheared to.
 Challenges are refered to as 'kata', there is ranks called 'kyus', clans, an honor system, etc.
